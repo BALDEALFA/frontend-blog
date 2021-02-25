@@ -4,19 +4,13 @@
 			"id": 1,
 			"title": "welcome to the new blog",
 			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-			"tags": ["webdev", "coding", "news"]
+			"tags": ["Javascript", "coding", "Typescript"]
 		},
 		{
 			"id": 2,
 			"title": "top 5 CSS tips",
 			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-			"tags": ["css", "webdev", "coding"]
-		},
-		{
-			"title": "Learn Vue3",
-			"body": "Vue3 is the bet front-end web framework actually in the market for developers to use and by more productive. ",
-			"tags": ["VueCli", "VueRouter", "Vuetify", "NuxtJs"],
-			"id": 3
+			"tags": ["css", "html", "coding"]
 		}
 	]
 }
