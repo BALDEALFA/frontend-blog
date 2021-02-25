@@ -1,16 +1,36 @@
 {
-	"posts": [
-		{
-			"id": 1,
-			"title": "welcome to the new blog",
-			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-			"tags": ["Javascript", "coding", "Typescript"]
-		},
-		{
-			"id": 2,
-			"title": "top 5 CSS tips",
-			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-			"tags": ["css", "html", "coding"]
-		}
-	]
+  "posts": [
+    {
+      "id": 1,
+      "title": "welcome to the new blog",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "tags": [
+        "Javascript",
+        "coding",
+        "Typescript"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "top 5 CSS tips",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "tags": [
+        "css",
+        "html",
+        "coding"
+      ]
+    },
+    {
+      "title": "cvlgcan",
+      "body": "xbxhsx x kxcxnbjclhvxlcj,",
+      "tags": [
+        "hvdch",
+        "ascbjsac",
+        "asbca",
+        "mavcha",
+        "csa"
+      ],
+      "id": 3
+    }
+  ]
 }

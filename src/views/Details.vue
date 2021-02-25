@@ -14,6 +14,7 @@
 <script>
 import getPost from "../composables/getPost";
 import Spinner from "../components/Spinner.vue";
+
 export default {
 	props: ["id"],
 	components: { Spinner },
