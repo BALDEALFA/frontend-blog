@@ -1,19 +1,23 @@
 <template>
 	<div class="post-list">
 		<div v-for="post in posts" :key="post.id">
-			<h1>{{ post.title }}</h1>
-			<p>{{ post.body }}</p>
-			<!-- <SinglePost :post="post" /> -->
+			<SinglePost :post="post" />
 		</div>
 	</div>
 </template>
 
 <script>
-// import SinglePost from "../components/SinglePost.vue";
+import { onMounted, onUnmounted, onUpdated } from "vue";
+import SinglePost from "../components/SinglePost.vue";
 export default {
 	props: ["posts"],
-	// components: { SinglePost },
-	// setup() {},
+	components: { SinglePost },
+
+	setup(props) {
+		onMounted(() => console.log("component mounted"));
+		onUnmounted(() => console.log("component Unmounted"));
+		onUpdated(() => console.log("component Updated"));
+	},
 };
 </script>
 
