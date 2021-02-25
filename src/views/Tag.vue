@@ -18,7 +18,7 @@ import PostList from "../components/PostList.vue";
 import getPosts from "../components/getPosts";
 import { useRoute } from "vue-router";
 import { computed } from "vue";
-import PostList from "../components/PostList.vue";
+
 export default {
 	components: { PostList, Spinner },
 	setup() {
