@@ -1,4 +1,3 @@
-import { valueOf } from "core-js/fn/symbol/match";
 import { ref } from "vue";
 
 const getPost = (id) => {
