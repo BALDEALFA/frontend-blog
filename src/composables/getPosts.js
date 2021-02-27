@@ -8,11 +8,13 @@ const getPosts = () => {
 		try {
 			const res = await projectFirestore
 				.collection("posts")
+				// .orderBy("title", "desc")
 				.orderBy("createdAt", "desc")
-				.get();
-			posts.value = res.docs.map((doc) => {
-				return { ...doc.data(), id: doc.id };
-			});
+				.onSnapshot((snap) => {
+					posts.value = snap.docs.map((doc) => {
+						return { ...doc.data(), id: doc.id };
+					});
+				});
 		} catch (err) {
 			error.value = err.message;
 			console.log(error.value);
